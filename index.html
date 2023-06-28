@@ -21,10 +21,11 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
 
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo link" href="./index.html"
@@ -57,15 +58,15 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
 
     <main>
-      <section class="hero">
+      <!-- <section class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button class="hero-btn" type="button" data-modal-open>
           Order Service
         </button>
-      </section>
+      </section> -->
 
       <section class="about">
         <div class="container">
@@ -335,6 +336,7 @@
           </ul>
         </div>
       </section>
+
       <div class="container">
         <h2 class="customers-title">Customers</h2>
         <ul class="customers-title-list list">
@@ -431,7 +433,8 @@
         <div class="form-conteiner">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <label for="personal-email" class="subscribe-email-lab">
+            <label for="personal-email" id="personal-email" class="subscribe-email-lab"></label>
+            <div class="mob-email">
               <input
                 type="email"
                 name="personal-email"
@@ -440,19 +443,19 @@
                 placeholder="E-mail"
                 required
               />
-            </label>
             <button type="submit" class="subscribe-button">
               Subscribe
               <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame-3"></use>
               </svg>
             </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button" type="button" data-modal-close>
           <svg class="modal-button-svg" width="8" height="8">
@@ -533,7 +536,7 @@
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
   </body>
 </html>

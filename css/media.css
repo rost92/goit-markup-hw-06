@@ -1,0 +1,116 @@
+@media screen and (min-width: 0px) and (max-width: 1199px) {
+    .icon-features {
+      display: none;
+    }
+    .doing {
+      display: none;
+    }
+  }
+@media screen and (min-width: 0px) and (max-width: 418px) {
+    .team-soc-list-mob {
+      gap: 25px;
+    }
+}
+@media screen and (min-width: 428px) {
+    .container {
+       max-width: 460px;
+    }
+    .features-item {
+      max-width: 428px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 800px;
+      
+    }
+    .features-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+    .features-item {
+        width: 356px;
+    }
+    .features-text {
+        max-width: 350px;
+        margin-bottom: 0;
+    }
+    .features-subtitle {
+        max-width: 264px;
+        text-align: left;
+    }
+    
+    .about {
+        padding-bottom: 96px;
+        padding-top: 96px;
+    }
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 64px 24px;
+    }
+    .team-item {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .team {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        padding-left: 108px;
+      
+    }
+    .footer-logo-ap {
+        display: block;
+        margin: 0;
+
+    }
+    .subscribe-text{
+        margin-left: 0;
+    }
+    .mob-email{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 24px;
+        
+    }
+    .subscribe-email{
+        width: 264px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1440px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .features-list {
+        display: flex;
+        gap: 24px;
+    }
+    .features-item {
+        width: 264px;
+        max-width: 264px;
+    }
+    .features-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-top: 8px;
+    }
+    .features-text {
+        font-weight: 400;
+    }
+    
+    
+}
+
+  
