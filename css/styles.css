@@ -5,8 +5,8 @@
   --color-brand-focus: #404bbf;
   --color-button-text: #ffffff;
   --card-set-gap: 24px;
-  --color-modal: #4D5AE5;
-  --color-modal-chek: #F4F4FD;
+  --color-modal: #4d5ae5;
+  --color-modal-chek: #f4f4fd;
 }
 p,
 h1,
@@ -102,8 +102,6 @@ body {
   display: none;
 }
 
-
-
 .hero {
   background-color: var(--color-text-title);
   background-image: linear-gradient(
@@ -127,7 +125,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #ffffff; 
+  color: #ffffff;
 
   margin-bottom: 48px;
   margin-left: auto;
@@ -234,7 +232,7 @@ body {
 }
 .doing-item {
   flex-basis: calc((100% - 24px * 2) / 3);
-} 
+}
 
 .team-title {
   max-width: 163px;
@@ -330,7 +328,6 @@ body {
   margin-right: auto;
   padding-bottom: 72px;
   margin-top: 96px;
-
 }
 
 .customers-title-list {
@@ -370,8 +367,6 @@ body {
   color: var(--color-brand-focus);
 }
 
-
-
 /*footer*/
 .background-footer {
   background-color: var(--color-text-title);
@@ -389,7 +384,6 @@ body {
   max-width: 264px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .footer-text {
@@ -465,7 +459,7 @@ body {
 }
 
 .social-media-link:is(:hover, :focus) {
-  background-color: #31D0AA;
+  background-color: #31d0aa;
 }
 
 .social-media-icon {
@@ -488,12 +482,12 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-.subscribe-form{
+.subscribe-form {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.mob-email{
+.mob-email {
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -521,14 +515,13 @@ body {
 }
 .subscribe-email:placeholder-shown {
   color: #ffffff;
-
 }
 
 .subscribe-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto",sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -537,7 +530,7 @@ body {
   cursor: pointer;
   min-width: 165px;
   height: 40px;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border-radius: 4px;
   border: none;
   transition-property: box-shadow, background-color;
@@ -545,7 +538,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscribe-icon {
-margin-left: 16px;
+  margin-left: 16px;
 }
 
 .subscribe-button:focus {
@@ -564,7 +557,6 @@ margin-left: 16px;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-
 
 /*portfolio <main>*/
 
@@ -708,7 +700,8 @@ margin-left: 16px;
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   opacity: 0;
@@ -723,8 +716,9 @@ margin-left: 16px;
   transform: translate(-50%, -50%) scale(1);
   width: 392px;
   max-height: 584px;
-  background: #FCFCFC;
-  box-shadow:  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: #fcfcfc;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -738,19 +732,20 @@ margin-left: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #E7E9FC;
+  background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button:focus {
-  fill: #FFFFFF;
+  fill: #ffffff;
   border: none;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .modal-button:hover {
-  fill: #FFFFFF;
+  fill: #ffffff;
   border: none;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .modal-button-svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -759,7 +754,7 @@ margin-left: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
   margin-bottom: 16px;
   text-align: center;
 }
@@ -770,7 +765,7 @@ margin-left: 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8E8F99;
+  color: #8e8f99;
   display: block;
   margin-bottom: 4px;
 }
@@ -789,7 +784,6 @@ margin-left: 16px;
 }
 .modal-input:focus + .modal-icon {
   fill: var(--color-modal);
-
 }
 .modal-input:focus {
   border-color: var(--color-modal);
@@ -829,7 +823,7 @@ margin-left: 16px;
   margin-bottom: 24px;
 }
 .privacy-checkbox:checked + .privacy-label > .privacy-span {
-  background-color:  var(--color-brand-focus);
+  background-color: var(--color-brand-focus);
   border: none;
   fill: var(--color-modal-chek);
 }
@@ -837,7 +831,7 @@ margin-left: 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8E8F99;
+  color: #8e8f99;
   display: block;
 }
 .privacy-span {
@@ -850,10 +844,12 @@ margin-left: 16px;
   align-items: center;
   justify-content: center;
   fill: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .privacy-link {
-  color: #4D5AE5;
+  color: #4d5ae5;
   text-decoration: underline;
   display: inline-block;
   margin-left: 3px;
@@ -862,18 +858,18 @@ margin-left: 16px;
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   margin: 0 auto;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   line-height: 1.5;
   cursor: pointer;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* -------------------mobile-menu-------------- */
