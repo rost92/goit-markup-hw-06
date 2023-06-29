@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo link" href="./index.html"
@@ -27,14 +27,14 @@
           >
           <ul class="header-list list">
             <li>
-              <a class="header-item link" href="./index.html">Studio</a>
+              <a class="header-item link current" href="./index.html">Studio</a>
             </li>
             <li>
-              <a class="header-item link current" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="header-item link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li><a class="header-item link" href="#">Contacts</a></li>
+            <li>
+              <a class="header-item link" href="#">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address>
@@ -50,9 +50,85 @@
               >
             </li>
           </ul>
+          <button type="button" data-menu-open class="menu-open">
+            <svg class="icon-menu-open" width="32" height="22">
+              <use href="./images/icons.svg#icon-menu-open"></use>
+            </svg>
+          </button>
         </address>
       </div>
-    </header> -->
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="container-mob-menu">
+          <div class="first">
+            <button type="button" data-menu-close class="menu-close">
+              <svg class="icon-menu-open" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black-icon"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-li">
+                <a class="mob-menu-item link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="mob-menu-li">
+                <a class="mob-menu-item link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mob-menu-li">
+                <a class="mob-menu-item link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="second">
+            <ul class="list mob-menu-address-list">
+              <li>
+                <a class="mob-menu-tel link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a class="mob-menu-mail link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="team-soc-list-mob list">
+              <li class="team-soc-item">
+                <a class="team-soc-link link" href="">
+                  <svg class="team-soc-icon" width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-soc-item">
+                <a class="team-soc-link link" href="">
+                  <svg class="team-soc-icon" width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-soc-item">
+                <a class="team-soc-link link" href="">
+                  <svg class="team-soc-icon" width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-soc-item">
+                <a class="team-soc-link link" href="">
+                  <svg class="team-soc-icon" width="16px" height="16px">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <main>
       <div class="container">
@@ -72,7 +148,7 @@
         </nav>
       </div>
 
-      <!-- <section>
+      <section>
         <div class="container">
           <ul class="project list">
             <li class="project-item">
@@ -277,7 +353,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <footer class="footer-big background-footer">
