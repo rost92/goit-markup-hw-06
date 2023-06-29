@@ -71,7 +71,16 @@
     .footer-logo-ap {
         display: block;
         margin: 0;
-
+        padding-bottom: 0;
+    }
+    .footer-logo {
+        margin-left: 0;
+    }
+    .footer-text {
+        margin-bottom: 0;
+    }
+    .social-media-content {
+        margin-bottom: 0;
     }
     .subscribe-text{
         margin-left: 0;
@@ -88,7 +97,7 @@
 }
 @media screen and (min-width: 1200px) {
     .container {
-        max-width: 1440px;
+        max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -109,7 +118,48 @@
     .features-text {
         font-weight: 400;
     }
-    
+    .customers-title-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 16px;
+        padding-bottom: 96px;
+    }
+    .footer-logo {
+        margin-left: 0;
+    }
+    .footer-big {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .footer {
+    flex-wrap: nowrap;
+    padding-top: 0;
+    padding-bottom: 0;   
+        gap: 0;
+    }
+ 
+    .footer-text {
+    width: 264px;   
+    height: 72px;
+    }
+    .social-media-content {
+        margin-left: 120px;
+    }
+    .social-media {
+        max-width: 98px;
+        height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        margin-right: auto;
+        margin-left: 0;
+
+      }
+    .form-conteiner {
+        padding-left: 80px;
+    }  
     
 }
 
