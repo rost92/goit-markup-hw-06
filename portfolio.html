@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a class="header-logo link" href="./index.html"
@@ -52,7 +52,7 @@
           </ul>
         </address>
       </div>
-    </header>
+    </header> -->
 
     <main>
       <div class="container">
@@ -72,7 +72,7 @@
         </nav>
       </div>
 
-      <section>
+      <!-- <section>
         <div class="container">
           <ul class="project list">
             <li class="project-item">
@@ -277,13 +277,15 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <footer class="footer-big background-footer">
       <div class="container footer">
         <div class="footer-logo-ap">
-          <a class="footer-logo link" href="./index.html">Web<span class="color">Studio</span></a>
+          <a class="footer-logo link" href="./index.html"
+            >Web<span class="color">Studio</span></a
+          >
           <p class="footer-text">
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
@@ -293,25 +295,29 @@
           <h3 class="social-media">Social media</h3>
           <ul class="social-media-list list">
             <li class="social-media-item">
-              <a class="social-media-link"><svg class="social-media-icon" width="24px" height="24px">
+              <a class="social-media-link"
+                ><svg class="social-media-icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-media-item">
-              <a class="social-media-link"><svg class="social-media-icon" width="24px" height="24px">
+              <a class="social-media-link"
+                ><svg class="social-media-icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
             <li class="social-media-item">
-              <a class="social-media-link"><svg class="social-media-icon" width="24px" height="24px">
+              <a class="social-media-link"
+                ><svg class="social-media-icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-media-item">
-              <a class="social-media-link"><svg class="social-media-icon" width="24px" height="24px">
+              <a class="social-media-link"
+                ><svg class="social-media-icon" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -321,18 +327,28 @@
         <div class="form-conteiner">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <label for="personal-email" class="subscribe-email-lab">
-              <input type="email" name="personal-email" id="personal-email" class="subscribe-email" placeholder="E-mail" required />
-            </label>
-            <button type="submit" class="subscribe-button">Subscribe
+            <label for="personal-email" id="personal-email" class="subscribe-email-lab"></label>
+            <div class="mob-email">
+              <input
+                type="email"
+                name="personal-email"
+                id="personal-email"
+                class="subscribe-email"
+                placeholder="E-mail"
+                required
+              />
+            <button type="submit" class="subscribe-button">
+              Subscribe
               <svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-Frame-3"></use>
               </svg>
             </button>
+            </div>
           </form>
         </div>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
