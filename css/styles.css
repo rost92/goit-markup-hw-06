@@ -192,7 +192,9 @@ body {
 }
 
 .features-item {
+  
 }
+
 
 .features-subtitle {
   max-width: 396px;
@@ -714,8 +716,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 392px;
+  width: calc(100% - 36px);
   max-height: 584px;
+  min-width: 392px;
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -888,6 +891,7 @@ body {
   background: #ffffff;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    
 }
 .mob-menu > .container-mob-menu {
   height: 100%;
