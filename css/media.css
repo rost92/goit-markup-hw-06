@@ -130,7 +130,6 @@
     gap: 72px 24px;
   }
   .features-item {
-   
     flex-basis: calc((100% - 24px) / 2);
   }
   .features-text {
