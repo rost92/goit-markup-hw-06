@@ -11,15 +11,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
-
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/media.css" />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
@@ -57,7 +48,7 @@
               >
             </li>
           </ul>
-          <button type="button" data-menu-open class="menu-open">
+          <button type="button" data-menu-open class="menu-open js-open-menu">
             <svg class="icon-menu-open" width="32" height="22">
               <use href="./images/icons.svg#icon-menu-open"></use>
             </svg>
@@ -65,10 +56,10 @@
         </address>
       </div>
 
-      <div class="mob-menu is-hidden" data-menu>
+      <div class="mob-menu is-open js-menu-container" data-menu>
         <div class="container-mob-menu">
           <div class="first">
-            <button type="button" data-menu-close class="menu-close">
+            <button type="button" data-menu-close class="menu-close js-close-menu">
               <svg class="icon-menu-open" width="8" height="8">
                 <use href="./images/icons.svg#icon-close-black-icon"></use>
               </svg>
