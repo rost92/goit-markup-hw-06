@@ -895,13 +895,13 @@ body {
 .mob-menu.is-open {
   transform: translateX(0);
 }
-.mob-menu > .container-mob-menu {
+/* .mob-menu > .container-mob-menu {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   overflow-y: auto;
-}
+} */
 .menu-open {
   border: none;
   background-color: transparent;
